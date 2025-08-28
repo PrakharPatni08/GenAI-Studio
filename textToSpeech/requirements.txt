@@ -1,0 +1,27 @@
+#Core ML and Audio library
+torch>=1.13.0
+torchaudio>=0.13.0
+numpy>=1.23.0
+scipy>=1.10.0
+soundfile>=0.12.1
+
+#Transformer models and tokenizers
+transformers>=4.30.0
+sentencepiece>=0.1.97
+
+#Utilities and progress bar
+tqdm>=4.65.0
+requests>=2.28.0
+
+#Scaling support for large models
+fairscale>=0.4.13
+
+#Streamlit for UI
+streamlit>=1.26.0
+
+#MeloTTs specific dependencies(add if needed)
+phonemizer>=2.3.1
+unidic-lite>=1.0.8
+
+#Additional audio processing library(optional)
+librosa>=0.9.2
